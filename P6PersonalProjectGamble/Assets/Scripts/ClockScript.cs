@@ -6,7 +6,7 @@ public class ClockScript : MonoBehaviour
     private GameObject secondsHandle, minutesHandle, hoursHandle;
     private float secondsMultiplier = 1f;
     private int inGameSeconds;
-    private int timeAtStart = 10000;
+    private int timeAtStart = 23500;
 
     void Update()
     {

@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 1559448673615139930}
   - component: {fileID: 1559448673615139928}
   - component: {fileID: 1559448673615139932}
-  - component: {fileID: 1559448673615139933}
+  - component: {fileID: 6209237266386641169}
   m_Layer: 0
   m_Name: AmericanFootball
   m_TagString: Untagged
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_Activated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1559448673615139933}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PlayQuickSound, Assembly-CSharp
         m_MethodName: Play
         m_Mode: 1
@@ -323,7 +323,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 4a0c15ba81319f64389a03eb636e7427, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -409,7 +409,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1559448673615139933
+--- !u!114 &6209237266386641169
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -418,12 +418,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1829921185828563206}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0755a2ba17a31d643b4a27e3034d8a79, type: 3}
+  m_Script: {fileID: 11500000, guid: f0ee2957563ce3a4a96a8de56f0ffcf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sound: {fileID: 8300000, guid: 9b4180017ef9ab04eb80c57dca5d49e7, type: 3}
-  volume: 1
-  randomPitchVariance: 0
+  bounceSound: {fileID: 8300000, guid: 4a0c15ba81319f64389a03eb636e7427, type: 3}
 --- !u!1 &2266007830489079421
 GameObject:
   m_ObjectHideFlags: 0
